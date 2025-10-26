@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: gcr.io/google-samples/microservices-demo/adservice
-  tag: v0.3.4
+  tag: 0.3.4
   pullPolicy: IfNotPresent
 
 containers:
