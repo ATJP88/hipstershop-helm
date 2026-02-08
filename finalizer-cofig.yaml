@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prod-config
+  namespace: adservice
+  finalizers:
+    - kubernetes
+data:
+  env: prod
