@@ -5,6 +5,7 @@ metadata:
   namespace: {{ .Values.namespace }}
   labels:
     {{- include "adservice.labels" . | nindent 4 }}
+    env: prod
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
